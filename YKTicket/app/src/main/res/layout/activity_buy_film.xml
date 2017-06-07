@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bk120.cinematicket.activitys.BuyFilmActivity">
+
+    <RelativeLayout
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        >
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/back"
+            android:onClick="back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:text="电影详情"
+            android:textSize="18sp"
+            android:layout_marginLeft="100dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:id="@+id/buyfilmactivity_sv"
+        android:visibility="invisible"
+        ><LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/zhaopain_item_shape"
+        >
+        <TextView
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:id="@+id/buyfilmactivity_title_tv"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            />
+        <View
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="#ADB4BC"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/buyfilmactivity_genres_tv"
+            android:textColor="@color/colorGray"
+            android:paddingLeft="3dp"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/buyfilmactivity_language_tv"
+            android:textColor="@color/colorGray"
+            android:paddingLeft="3dp"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/buyfilmactivity_rating_tv"
+            android:textColor="@color/colorGray"
+            android:paddingLeft="3dp"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/buyfilmactivity_country_tv"
+            android:textColor="@color/colorGray"
+            android:paddingLeft="3dp"
+            android:textSize="16sp"
+            />
+        <View
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="#ADB4BC"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/buyfilmactivity_directors_tv"
+            android:textColor="@color/colorGray"
+            android:paddingLeft="3dp"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/buyfilmactivity_actors_tv"
+            android:textColor="@color/colorGray"
+            android:paddingLeft="3dp"
+            android:textSize="16sp"
+            />
+        <View
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="#ADB4BC"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/buyfilmactivity_plot_simple_tv"
+            android:textColor="@color/colorGray"
+            android:paddingLeft="3dp"
+            android:textSize="16sp"
+            />
+        <View
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="#ADB4BC"
+            />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:layout_width="250dp"
+                android:paddingLeft="3dp"
+                android:id="@+id/buyfilmactivity_poster_iv"
+                />
+            <View
+                android:layout_height="200dp"
+                android:layout_width="2dp"
+                android:background="#ADB4BC"
+                android:layout_marginLeft="5dp"
+                />
+            <Button
+                android:layout_height="40dp"
+                android:layout_width="60dp"
+                android:text="购买"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:onClick="buy"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/addressactivity_searchbtn_selector"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout></ScrollView>
+
+
+
+</LinearLayout>

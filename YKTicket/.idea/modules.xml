@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/YKTicket.iml" filepath="$PROJECT_DIR$/YKTicket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CinemaTicket-master.iml" filepath="$PROJECT_DIR$/CinemaTicket-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytest_baidumap/mytest_baidumap.iml" filepath="$PROJECT_DIR$/mytest_baidumap/mytest_baidumap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytest_baidumap2/mytest_baidumap2.iml" filepath="$PROJECT_DIR$/mytest_baidumap2/mytest_baidumap2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytest_cehuacaidan/mytest_cehuacaidan.iml" filepath="$PROJECT_DIR$/mytest_cehuacaidan/mytest_cehuacaidan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytest_cinemachair/mytest_cinemachair.iml" filepath="$PROJECT_DIR$/mytest_cinemachair/mytest_cinemachair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytest_constraintlayout/mytest_constraintlayout.iml" filepath="$PROJECT_DIR$/mytest_constraintlayout/mytest_constraintlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytest_gesturelock/mytest_gesturelock.iml" filepath="$PROJECT_DIR$/mytest_gesturelock/mytest_gesturelock.iml" />
     </modules>
   </component>
 </project>
