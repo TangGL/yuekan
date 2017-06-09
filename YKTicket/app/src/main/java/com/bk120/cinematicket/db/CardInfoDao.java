@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Lixudong on 2017/3/8.
+ * Created by lixudong on 2017/3/8.
  * Card表的dao层操作
  */
 

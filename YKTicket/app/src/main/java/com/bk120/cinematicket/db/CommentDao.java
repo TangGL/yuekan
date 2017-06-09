@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Lixudong on 2017/3/12.
+ * Created by lixudong on 2017/3/12.
  * //对影片的评论表
  */
 
